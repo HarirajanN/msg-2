@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messager</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="chat-body">
+    <div class="row">
+        <div class="col-sm" id="land-start"></div>
+        <div class="col-sm" id="land-middle">
+            <div id="land-top-bar">
+                <div id="top-bar-start">
+                    <a href="landpage.html"><div id="top-bar-start-brand">HowsApp</div></a>
+                </div>
+                <div id="top-bar-end">
+                    <a href=""><ion-icon name="camera-outline" class="top-bar-end-icon"></ion-icon></a>
+                    <a href=""><ion-icon name="search-sharp" class="top-bar-end-icon"></ion-icon></a>
+                    <a href=""><ion-icon name="ellipsis-vertical-sharp" class="top-bar-end-icon"></ion-icon></a>
+                </div>
+            </div>
+            <div id="property-bar">
+                <a href="group.html" class="property-icon"><ion-icon name="people-outline"></ion-icon></a>
+                <a href="chat.html" class="property-item ">Chats</a>
+                <a href="status.html" class="property-item text-white">Status</a>
+                <a href="" class="property-item">Calls</a>
+            </div>
+            <div id="card-row" class="p-2" style="height:100vh ;">
+                <div class="row mb-2">
+                    <div class="card p-2 " id="contact">
+                        <span style="position: relative;">
+                            <img src="./images/profile.jpg" id="dp" class="me-3">
+                            <small class="badge rounded-pill bg-success" style="position: absolute; left: 20px; top: 18px;" >+</small>
+                        </span>
+                        <span class="pb-2" >
+                        <h6 id="contact-name">My status</h6>
+                        <p class="text-muted" style="font-size:12px ; position: absolute;">Tap to add status updates</p>
+                    </span>
+                    </div>
+                    <div id="alert" class=" p-5 text-center">
+                       <h6 class="badge bg-secondary rounded-pill p-3" style="background-color: whitesmoke;">No Status Avilable</h6>
+                    </div>
+                </div>
+                </div>
+              
+        </div>
+        <div class="col-sm" id="land-end"></div>
+    </div>
+    
+      
+
+
+    <script src="./Bootstrap/jquery.min.js"></script>
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

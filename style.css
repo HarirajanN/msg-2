@@ -1,0 +1,132 @@
+body{
+  background-color: black;
+  
+}
+a{
+  text-decoration: none;
+
+}
+/*---------------------------------key frame-------------------*/
+
+/*---------------------------------key frame-------------------*/
+
+
+/*---------------------------------claSS-------------------*/
+.icon{
+  width: 55px;
+  height:55px;
+  color: lightgreen;
+  align-self: center;
+}
+.row{
+  --bs-gutter-x: 0px;
+}
+.top-bar-end-icon{
+  color: white;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.property-item{
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 17px;
+  font-weight: 700;
+}
+.property-icon{
+  color: rgba(255, 255, 255, 0.596);
+  font-size: 20px;
+  font-weight: 700;
+}
+.chat-body{
+  
+}
+/*---------------------------------claSS-------------------*/
+
+/*---------------------------------id-------------------*/
+#property-bar{
+  background-color:rgba(58, 219, 58, 0.671) ;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  width: 100%;
+ 
+}
+#land-top-bar{
+  display: flex;
+  background-color:rgba(58, 219, 58, 0.671) ;
+  padding: 10px;
+  justify-content: space-between;
+}
+#top-bar-start-brand{
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+}
+#middle{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  
+}
+#load-logo{
+  text-align: center;
+  align-self: center;
+  position: relative;
+  top: 100px;
+}
+#meta-icon{
+  font-size: 20px;
+  position: relative;
+  top:-3px;
+  color: lightgreen;
+}
+#company{
+  text-align: center;
+  margin-bottom: 60px;
+}
+#top-bar{
+  background-color: green;
+}
+#dp{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#contact{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+}
+#contact-name{
+  font-weight: 900;
+  position: relative;
+  top:7px ;
+}
+#card-row{
+ position: absolute;
+ width:100%;
+ background-color:whitesmoke;
+
+
+}
+#land-middle{
+  position: relative;
+}
+#alert{
+ z-index: 10;
+
+
+}
+/*---------------------------------id-------------------*/
+
+/*---------------------------------hover-------------------*/
+.property-icon:hover{
+  color: white;
+}
+.property-item:hover{
+  color: white;
+}
+/*---------------------------------hover-------------------*/
